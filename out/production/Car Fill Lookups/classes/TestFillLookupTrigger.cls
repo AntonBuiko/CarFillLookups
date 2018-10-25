@@ -4,21 +4,27 @@
 
 @IsTest
 private class TestFillLookupTrigger {
+    static Manufacturer__c manufacturer;
+    static Model__c model;
+    static Engine__c engine;
+    static Color__c color;
+    static Insurance__c insurance;
+
     @IsTest
     static void testSuccessFill() {
+        FillObjects();
+        System.debug(manufacturer);
         Car__c car = new Car__c(Name = 'Success  Test Car', Manufacturer_Name__c = 'Toyota Motors',
-                Model_Name__c = 'Camry', Engine_Name__c = 'V12', Color_Name__c = 'Green');
-
+                Model_Name__c = 'Camry', Engine_Name__c = 'V12', Color_Name__c = 'Green', Insurance__c = 'Casco');
         Test.startTest();
         Database.SaveResult result = Database.insert(car, false);
         Test.stopTest();
-        System.debug(result);
         System.assert(result.isSuccess());
-        System.assert(result.getErrors().size() < 0);
     }
 
     @IsTest
     static void testNegativeBehavior() {
+        FillObjects();
         Car__c car = new Car__c();
         car.Name = 'Unsuccess  Test Car';
         car.Manufacturer_Name__c = 'Toyota sdf';
@@ -32,5 +38,17 @@ private class TestFillLookupTrigger {
         System.assert(result.getErrors().size() > 0);
         System.assertEquals('Not found lookup name!',
                 result.getErrors()[0].getMessage());
+    }
+
+    static void FillObjects() {
+        manufacturer = new Manufacturer__c(Name = 'Toyota Motors');
+        insert manufacturer;
+        model = new Model__c(Name = 'Camry', Manufacturer__c = manufacturer.Id);
+        engine = new Engine__c(Name = 'V12', Manufacturer__c = manufacturer.Id);
+        color = new Color__c(Name = 'Green');
+        insurance = new Insurance__c(Name = 'Casco');
+        insert model;
+        insert engine;
+        insert color;
     }
 }

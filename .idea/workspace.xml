@@ -1,10 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/triggers/FillLookupTrigger.trigger" line="15" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3ef5d999-4783-4c76-bd88-3626d8a1c8cc" name="Default Changelist" comment="" />
+    <list default="true" id="3ef5d999-4783-4c76-bd88-3626d8a1c8cc" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/classes/MapperFields.cls" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/classes/MapperFields.cls-meta.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car Fill Lookups.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Car Fill Lookups.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Car Fill Lookups/classes/TestFillLookupTrigger.cls" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Car Fill Lookups/classes/TestFillLookupTrigger.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/classes/TestFillLookupTrigger.cls" beforeDir="false" afterPath="$PROJECT_DIR$/src/classes/TestFillLookupTrigger.cls" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/triggers/FillLookupTrigger.trigger" beforeDir="false" afterPath="$PROJECT_DIR$/src/triggers/FillLookupTrigger.trigger" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +18,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Car_Fill_Lookups$TestFillLookupTrigger.null" NAME="Car Fill Lookups Coverage Results" MODIFIED="1539849099700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="Car Fill Lookups" CONNECTION_NAME="Car Fill Lookups" />
+    <SUITE FILE_PATH="coverage/Car_Fill_Lookups$TestFillLookupTrigger.null" NAME="Car Fill Lookups Coverage Results" MODIFIED="1540463869016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="Apex" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" PROJECT_NAME="Car Fill Lookups" CONNECTION_NAME="Car Fill Lookups" />
   </component>
   <component name="CoverageViewManager">
     <option name="myElementSize" value="75" />
@@ -22,43 +27,47 @@
     <session id="-500386762">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="6" />
+          <entry key="project.closed" value="12" />
+          <entry key="project.open.time.31" value="1" />
           <entry key="project.open.time.310" value="1" />
-          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.32" value="2" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.449" value="1" />
+          <entry key="project.open.time.48" value="1" />
+          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.7" value="2" />
           <entry key="project.open.time.77" value="1" />
-          <entry key="project.opened" value="6" />
+          <entry key="project.opened" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="apex" value="1" />
-          <entry key="cls" value="26" />
-          <entry key="iml" value="3" />
+          <entry key="cls" value="32" />
+          <entry key="iml" value="4" />
           <entry key="trigger" value="2" />
-          <entry key="xml" value="3" />
+          <entry key="xml" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Apex" value="29" />
-          <entry key="IDEA_MODULE" value="3" />
+          <entry key="Apex" value="35" />
+          <entry key="IDEA_MODULE" value="4" />
+          <entry key="Meta.xml" value="1" />
           <entry key="XML" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="apex" value="2014" />
-          <entry key="cls" value="908" />
+          <entry key="apex" value="3286" />
+          <entry key="cls" value="1926" />
           <entry key="iml" value="6" />
-          <entry key="trigger" value="580" />
+          <entry key="trigger" value="2849" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Apex" value="3502" />
+          <entry key="Apex" value="8061" />
           <entry key="IDEA_MODULE" value="6" />
         </counts>
       </usages-collector>
@@ -69,8 +78,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/classes/TestFillLookupTrigger.cls">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="615">
+              <caret line="74" column="42" lean-forward="true" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -78,8 +87,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/triggers/FillLookupTrigger.trigger">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="138" selection-start-line="10" selection-start-column="138" selection-end-line="10" selection-end-column="138" />
+            <state relative-caret-position="495">
+              <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/classes/MapperFields.cls">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -90,6 +108,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Apex Unit Test Class" />
+        <option value="Apex Class" />
         <option value="Apex Metadata" />
       </list>
     </option>
@@ -97,14 +116,20 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>color</find>
+      <find>insurance</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Car Fill Lookups.iml" />
-        <option value="$PROJECT_DIR$/src/triggers/FillLookupTrigger.trigger" />
+        <option value="$PROJECT_DIR$/src/classes/MapLookupsFieldAndNames.cls" />
         <option value="$PROJECT_DIR$/src/classes/TestFillLookupTrigger.cls" />
+        <option value="$PROJECT_DIR$/src/classes/MapperFields.cls" />
+        <option value="$PROJECT_DIR$/src/triggers/FillLookupTrigger.trigger" />
       </list>
     </option>
   </component>
@@ -119,7 +144,8 @@
         <entry key="Car Fill Lookups">
           <value>
             <ModuleWorkspaceSettings>
-              <option name="moduleContentsLastModified" value="1539765850766" />
+              <option name="moduleContentsLastModified" value="1540286987321" />
+              <option name="serverMetadataLastPopulated" value="1540286971440" />
             </ModuleWorkspaceSettings>
           </value>
         </entry>
@@ -129,16 +155,9 @@
       <ProjectWorkspaceSettings>
         <option name="anonymousApexSettings">
           <AnonymousApexSettings>
-            <option name="apexLogLevel" value="FINEST" />
-            <option name="calloutsLogLevel" value="ERROR" />
             <option name="connectionName" value="Car Fill Lookups" />
-            <option name="documentText" value="Car__c car = new Car__c(Name = 'Success  Test Car', Manufacturer_Name__c = 'Toyota Motors',&#10;        Model_Name__c = 'Camry', Engine_Name__c = 'V12', Color_Name__c = 'Green');&#10;Database.SaveResult result = Database.insert(car, false);&#10;System.debug(result);&#10;" />
-            <option name="profilingLogLevel" value="ERROR" />
-            <option name="splitterProportion" value="0.511811" />
-            <option name="systemLogLevel" value="FINEST" />
-            <option name="validationLogLevel" value="ERROR" />
-            <option name="visualforceLogLevel" value="ERROR" />
-            <option name="workflowLogLevel" value="ERROR" />
+            <option name="documentText" value="" />
+            <option name="splitterProportion" value="0.5883015" />
           </AnonymousApexSettings>
         </option>
         <option name="connectionWorkspaceSettings">
@@ -148,8 +167,9 @@
                 <ConnectionWorkspaceSettings>
                   <option name="buildSuccessDatesBySourceRootRelativePath">
                     <map>
-                      <entry key="CLASSES/TESTFILLLOOKUPTRIGGER.CLS" value="1539849094243" />
-                      <entry key="TRIGGERS/FILLLOOKUPTRIGGER.TRIGGER" value="1539848718914" />
+                      <entry key="CLASSES/MAPPERFIELDS.CLS" value="1540464256574" />
+                      <entry key="CLASSES/TESTFILLLOOKUPTRIGGER.CLS" value="1540456705612" />
+                      <entry key="TRIGGERS/FILLLOOKUPTRIGGER.TRIGGER" value="1540464315323" />
                     </map>
                   </option>
                   <option name="lastBuildScope" value="CONTEXT" />
@@ -182,7 +202,7 @@
             <entry key="Car Fill Lookups">
               <value>
                 <MetadataContents>
-                  <option name="lastPopulated" value="1539683419002" />
+                  <option name="lastPopulated" value="1540286987321" />
                   <option name="metadataTypes">
                     <set>
                       <MetadataType>
@@ -192,8 +212,8 @@
                             <option value="Customer Community Plus Login User" />
                             <option value="High Volume Customer Portal User" />
                             <option value="Analytics Cloud Integration User" />
-                            <option value="Cross Org Data Proxy User" />
                             <option value="Force%2Ecom - Free User" />
+                            <option value="Cross Org Data Proxy User" />
                             <option value="PlatformPortal" />
                             <option value="External Identity User" />
                             <option value="Force%2Ecom - App Subscription User" />
@@ -212,14 +232,14 @@
                             <option value="SolutionManager" />
                             <option value="Chatter Free User" />
                             <option value="HighVolumePortal" />
-                            <option value="Customer Community Login User" />
                             <option value="Customer Portal Manager Standard" />
+                            <option value="Customer Community Login User" />
                             <option value="MarketingProfile" />
                             <option value="Analytics Cloud Security User" />
                             <option value="Admin" />
                             <option value="Silver Partner User" />
-                            <option value="Work%2Ecom Only User" />
                             <option value="Partner App Subscription User" />
+                            <option value="Work%2Ecom Only User" />
                             <option value="Authenticated Website" />
                             <option value="Customer Community User" />
                             <option value="Custom%3A Marketing Profile" />
@@ -249,6 +269,14 @@
                       <MetadataType>
                         <option name="members">
                           <set>
+                            <option value="FillLookupTrigger" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexTrigger" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
                             <option value="Account" />
                             <option value="Company" />
                             <option value="Address" />
@@ -257,8 +285,8 @@
                             <option value="Security" />
                             <option value="Knowledge" />
                             <option value="Name" />
-                            <option value="Case" />
                             <option value="Ideas" />
+                            <option value="Case" />
                             <option value="FieldService" />
                             <option value="Opportunity" />
                             <option value="Search" />
@@ -305,6 +333,20 @@
                       <MetadataType>
                         <option name="members">
                           <set>
+                            <option value="Color__c-en_US" />
+                            <option value="Car__c-en_US" />
+                            <option value="Manufacturer__c-en_US" />
+                            <option value="Engine__c-en_US" />
+                            <option value="Insurance__c-en_US" />
+                            <option value="Model__c-en_US" />
+                            <option value="TestObject__c-en_US" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObjectTranslation" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
                             <option value="CustomLabels" />
                           </set>
                         </option>
@@ -313,14 +355,211 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Car__c-en_US" />
-                            <option value="Color__c-en_US" />
-                            <option value="Manufacturer__c-en_US" />
-                            <option value="Engine__c-en_US" />
-                            <option value="Model__c-en_US" />
+                            <option value="Account-Account %28Sales%29 Layout" />
+                            <option value="Contact-Contact %28Support%29 Layout" />
+                            <option value="Product2-Product Layout" />
+                            <option value="Lead-Lead Layout" />
+                            <option value="Case-Case %28Sales%29 Layout" />
+                            <option value="Contact-Contact Layout" />
+                            <option value="Lead-Lead %28Support%29 Layout" />
+                            <option value="DandBCompany-D%26B Company Layout" />
+                            <option value="AssetRelationship-Asset Relationship Layout" />
+                            <option value="Case-Case %28Support%29 Layout" />
+                            <option value="Macro-Macro Layout" />
+                            <option value="Order-Order Layout" />
+                            <option value="ScorecardMetric-Scorecard Metric Layout" />
+                            <option value="UserProvisioningRequest-User Provisioning Request Layout" />
+                            <option value="Solution-Solution Layout" />
+                            <option value="Event-Event Layout" />
+                            <option value="Pricebook2-Price Book Layout" />
+                            <option value="UserProvisioningLog-User Provisioning Log Layout" />
+                            <option value="UserProvAccount-User Provisioning Account Layout" />
+                            <option value="Contact-Contact %28Marketing%29 Layout" />
+                            <option value="Task-Task Layout" />
+                            <option value="Opportunity-Opportunity Layout" />
+                            <option value="Asset-Asset Layout" />
+                            <option value="OrderItem-Order Product Layout" />
+                            <option value="DuplicateRecordSet-Duplicate Record Set Layout" />
+                            <option value="OpportunityLineItem-Opportunity Product Layout" />
+                            <option value="Manufacturer__c-Manufacturer Layout" />
+                            <option value="Case-Case Layout" />
+                            <option value="Contract-Contract Layout" />
+                            <option value="Account-Account Layout" />
+                            <option value="Campaign-Campaign Layout" />
+                            <option value="CommunityMemberLayout-Community Member Layout" />
+                            <option value="ScorecardAssociation-Scorecard Association Layout" />
+                            <option value="Car__c-Car Layout" />
+                            <option value="Opportunity-Opportunity %28Sales%29 Layout" />
+                            <option value="SocialPersona-Social Persona Layout" />
+                            <option value="Scorecard-Scorecard Layout" />
+                            <option value="Engine__c-Engine Layout" />
+                            <option value="Case-Case %28Marketing%29 Layout" />
+                            <option value="Model__c-Model Layout" />
+                            <option value="PricebookEntry-Price Book Entry Layout" />
+                            <option value="CaseClose-Close Case Layout" />
+                            <option value="Idea-Idea Layout" />
+                            <option value="ContentVersion-Content Version Layout" />
+                            <option value="Opportunity-Opportunity %28Support%29 Layout" />
+                            <option value="Global-Global Layout" />
+                            <option value="Insurance__c-Insurance Layout" />
+                            <option value="Account-Account %28Marketing%29 Layout" />
+                            <option value="Lead-Lead %28Sales%29 Layout" />
+                            <option value="EmailMessage-Email Message Layout" />
+                            <option value="SocialPost-Social Post Layout" />
+                            <option value="Color__c-Color Layout" />
+                            <option value="CampaignMember-Campaign Member Page Layout" />
+                            <option value="Account-Account %28Support%29 Layout" />
+                            <option value="QuickText-Quick Text Layout" />
+                            <option value="User-User Layout" />
+                            <option value="Contact-Contact %28Sales%29 Layout" />
+                            <option value="TestObject__c-TestObject Layout" />
+                            <option value="Lead-Lead %28Marketing%29 Layout" />
+                            <option value="Opportunity-Opportunity %28Marketing%29 Layout" />
                           </set>
                         </option>
-                        <option name="name" value="CustomObjectTranslation" />
+                        <option name="name" value="Layout" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Account" />
+                            <option value="Insurance__c" />
+                            <option value="Task" />
+                            <option value="CollaborationGroup" />
+                            <option value="OpportunityLineItem" />
+                            <option value="ForecastingCategoryMapping" />
+                            <option value="CaseContactRole" />
+                            <option value="Activity" />
+                            <option value="Manufacturer__c" />
+                            <option value="Document" />
+                            <option value="ContactCleanInfo" />
+                            <option value="ScorecardMetric" />
+                            <option value="PushTopic" />
+                            <option value="TestObject__c" />
+                            <option value="FeedItem" />
+                            <option value="ContractContactRole" />
+                            <option value="ExchangeUserMapping" />
+                            <option value="SocialPersona" />
+                            <option value="Asset" />
+                            <option value="CampaignMember" />
+                            <option value="CollaborationGroupMember" />
+                            <option value="Order" />
+                            <option value="StreamingChannel" />
+                            <option value="AccountContactRole" />
+                            <option value="EmailMessage" />
+                            <option value="AccountCleanInfo" />
+                            <option value="Pricebook2" />
+                            <option value="UserProvisioningRequest" />
+                            <option value="Model__c" />
+                            <option value="PricebookEntry" />
+                            <option value="OrgDeleteRequest" />
+                            <option value="Car__c" />
+                            <option value="LeadCleanInfo" />
+                            <option value="Campaign" />
+                            <option value="Idea" />
+                            <option value="ChatterActivity" />
+                            <option value="Contract" />
+                            <option value="ScorecardAssociation" />
+                            <option value="OpportunityCompetitor" />
+                            <option value="PartnerRole" />
+                            <option value="Color__c" />
+                            <option value="MacroAction" />
+                            <option value="Site" />
+                            <option value="User" />
+                            <option value="Product2" />
+                            <option value="Macro" />
+                            <option value="MacroInstruction" />
+                            <option value="DuplicateRecordItem" />
+                            <option value="CaseComment" />
+                            <option value="Case" />
+                            <option value="ContentVersion" />
+                            <option value="Opportunity" />
+                            <option value="Lead" />
+                            <option value="DuplicateRecordSet" />
+                            <option value="Scorecard" />
+                            <option value="Topic" />
+                            <option value="Solution" />
+                            <option value="Engine__c" />
+                            <option value="QuickText" />
+                            <option value="AssetRelationship" />
+                            <option value="StreamActivityAccess" />
+                            <option value="DandBCompany" />
+                            <option value="OpportunityContactRole" />
+                            <option value="Contact" />
+                            <option value="RequestsForAccessSIQ" />
+                            <option value="OrderItem" />
+                            <option value="AssistantProgress" />
+                            <option value="Event" />
+                            <option value="RecordAction" />
+                            <option value="TopicAssignment" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomObject" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Car__c.Engine__c" />
+                            <option value="Opportunity.TrackingNumber__c" />
+                            <option value="Car__c.Insurance_number__c" />
+                            <option value="Account.Active__c" />
+                            <option value="Case.SLAViolation__c" />
+                            <option value="Model__c.Manufacturer__c" />
+                            <option value="Lead.Primary__c" />
+                            <option value="Car__c.Engine_Name__c" />
+                            <option value="CaseComment.ParentOrigin" />
+                            <option value="Opportunity.DeliveryInstallationStatus__c" />
+                            <option value="Lead.CurrentGenerators__c" />
+                            <option value="Account.NumberofLocations__c" />
+                            <option value="Contact.Level__c" />
+                            <option value="Opportunity.MainCompetitors__c" />
+                            <option value="Account.SLASerialNumber__c" />
+                            <option value="Account.UpsellOpportunity__c" />
+                            <option value="Goal.OrigGoalId__c" />
+                            <option value="Car__c.Color_Name__c" />
+                            <option value="Account.CustomerPriority__c" />
+                            <option value="Car__c.Model__c" />
+                            <option value="Car__c.Manufacturer__c" />
+                            <option value="Account.SLA__c" />
+                            <option value="Lead.SICCode__c" />
+                            <option value="Contact.Languages__c" />
+                            <option value="Insurance__c.Code__c" />
+                            <option value="Car__c.Insurance__c" />
+                            <option value="Opportunity.OrderNumber__c" />
+                            <option value="Metric.OrigMetricId__c" />
+                            <option value="Case.EngineeringReqNumber__c" />
+                            <option value="Car__c.Model_Name__c" />
+                            <option value="CaseComment.CommentBody" />
+                            <option value="Account.SLAExpirationDate__c" />
+                            <option value="Car__c.Manufacturer_Name__c" />
+                            <option value="Opportunity.CurrentGenerators__c" />
+                            <option value="Car__c.Color__c" />
+                            <option value="Engine__c.Manufacturer__c" />
+                            <option value="Case.PotentialLiability__c" />
+                            <option value="Lead.ProductInterest__c" />
+                            <option value="Lead.NumberofLocations__c" />
+                            <option value="Case.Product__c" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomField" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="TestFillLookupTrigger" />
+                            <option value="MapLookupsFieldAndNames" />
+                          </set>
+                        </option>
+                        <option name="name" value="ApexClass" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="Metric.Progress" />
+                            <option value="Metric.Completion" />
+                          </set>
+                        </option>
+                        <option name="name" value="RecordType" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -336,17 +575,9 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="Metric.Progress" />
-                            <option value="Metric.Completion" />
-                          </set>
-                        </option>
-                        <option name="name" value="RecordType" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
                             <option value="Order.AllActivatedOrders" />
                             <option value="Opportunity.NewThisWeek" />
+                            <option value="Insurance__c.All" />
                             <option value="Case.AllOpenCases" />
                             <option value="Order.AllDraftOrders" />
                             <option value="Case.MyCases" />
@@ -366,14 +597,14 @@
                             <option value="Task.DelegatedTasks" />
                             <option value="SocialPersona.AllSocialPersonas" />
                             <option value="User.AllUsers" />
+                            <option value="Task.UnscheduledTasks" />
                             <option value="Model__c.All" />
                             <option value="Contract.MyDraftContracts" />
-                            <option value="Task.UnscheduledTasks" />
                             <option value="Lead.TodaysLeads" />
                             <option value="Task.CompletedTasks" />
                             <option value="Solution.AllUnreviewedSolutions" />
-                            <option value="Account.NewLastWeek" />
                             <option value="Activity.UpcomingEvents" />
+                            <option value="Account.NewLastWeek" />
                             <option value="Account.MyAccounts" />
                             <option value="Opportunity.AllOpportunities" />
                             <option value="Task.OpenTasks" />
@@ -381,8 +612,8 @@
                             <option value="Contact.BirthdaysThisMonth" />
                             <option value="Account.AllAccounts" />
                             <option value="Opportunity.ClosingThisMonth" />
-                            <option value="Contact.NewThisWeek" />
                             <option value="CollaborationGroup.All_ChatterGroups" />
+                            <option value="Contact.NewThisWeek" />
                             <option value="Activity.AllActivities" />
                             <option value="Opportunity.NewLastWeek" />
                             <option value="Asset.AllAssets" />
@@ -398,15 +629,15 @@
                             <option value="Activity.TodaysTasks" />
                             <option value="Car__c.All" />
                             <option value="Task.RecurringTasks" />
-                            <option value="Opportunity.Won" />
                             <option value="Case.AllClosedCases" />
+                            <option value="Opportunity.Won" />
                             <option value="Manufacturer__c.All" />
                             <option value="Engine__c.All" />
                             <option value="Solution.AllReviewedSolutions" />
                             <option value="Account.PlatinumandGoldSLACustomers" />
-                            <option value="Activity.MyActivities" />
-                            <option value="Task.TodaysTasks" />
                             <option value="Contract.MyInApprovalContracts" />
+                            <option value="Task.TodaysTasks" />
+                            <option value="Activity.MyActivities" />
                             <option value="Contract.AllInApprovalContracts" />
                             <option value="WorkFeedbackTemplate.All" />
                             <option value="Lead.AllOpenLeads" />
@@ -414,8 +645,8 @@
                             <option value="WorkFeedbackRequest.All" />
                             <option value="Lead.ViewCustom1" />
                             <option value="Idea.Ideas_Last_7_Days" />
-                            <option value="Lead.ViewCustom2" />
                             <option value="Contract.AllActivatedContracts" />
+                            <option value="Lead.ViewCustom2" />
                           </set>
                         </option>
                         <option name="name" value="ListView" />
@@ -425,13 +656,15 @@
                           <set>
                             <option value="Order" />
                             <option value="Account" />
+                            <option value="Insurance__c" />
                             <option value="User" />
                             <option value="Manufacturer__c" />
                             <option value="Model__c" />
                             <option value="Contact" />
-                            <option value="Case" />
                             <option value="Car__c" />
+                            <option value="Case" />
                             <option value="FlowInterview" />
+                            <option value="TestObject__c" />
                             <option value="Campaign" />
                             <option value="ListEmail" />
                             <option value="Opportunity" />
@@ -464,217 +697,25 @@
                           <set>
                             <option value="DirectorDirectSales" />
                             <option value="SVPSalesMarketing" />
-                            <option value="MarketingTeam" />
                             <option value="COO" />
+                            <option value="MarketingTeam" />
                             <option value="DirectorChannelSales" />
                             <option value="InstallationRepairServices" />
                             <option value="SVPHumanResources" />
                             <option value="SVPCustomerServiceSupport" />
                             <option value="VPInternationalSales" />
-                            <option value="EasternSalesTeam" />
-                            <option value="ChannelSalesTeam" />
                             <option value="CEO" />
+                            <option value="ChannelSalesTeam" />
+                            <option value="EasternSalesTeam" />
                             <option value="CFO" />
                             <option value="CustomerSupportInternational" />
-                            <option value="CustomerSupportNorthAmerica" />
                             <option value="WesternSalesTeam" />
+                            <option value="CustomerSupportNorthAmerica" />
                             <option value="VPMarketing" />
                             <option value="VPNorthAmericanSales" />
                           </set>
                         </option>
                         <option name="name" value="Role" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="FillLookupTrigger" />
-                          </set>
-                        </option>
-                        <option name="name" value="ApexTrigger" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Account-Account %28Sales%29 Layout" />
-                            <option value="Contact-Contact %28Support%29 Layout" />
-                            <option value="Product2-Product Layout" />
-                            <option value="Lead-Lead Layout" />
-                            <option value="Case-Case %28Sales%29 Layout" />
-                            <option value="Contact-Contact Layout" />
-                            <option value="Lead-Lead %28Support%29 Layout" />
-                            <option value="DandBCompany-D%26B Company Layout" />
-                            <option value="AssetRelationship-Asset Relationship Layout" />
-                            <option value="Case-Case %28Support%29 Layout" />
-                            <option value="Macro-Macro Layout" />
-                            <option value="Order-Order Layout" />
-                            <option value="ScorecardMetric-Scorecard Metric Layout" />
-                            <option value="Solution-Solution Layout" />
-                            <option value="UserProvisioningRequest-User Provisioning Request Layout" />
-                            <option value="Event-Event Layout" />
-                            <option value="Pricebook2-Price Book Layout" />
-                            <option value="UserProvisioningLog-User Provisioning Log Layout" />
-                            <option value="UserProvAccount-User Provisioning Account Layout" />
-                            <option value="Contact-Contact %28Marketing%29 Layout" />
-                            <option value="Task-Task Layout" />
-                            <option value="Opportunity-Opportunity Layout" />
-                            <option value="Asset-Asset Layout" />
-                            <option value="OrderItem-Order Product Layout" />
-                            <option value="DuplicateRecordSet-Duplicate Record Set Layout" />
-                            <option value="OpportunityLineItem-Opportunity Product Layout" />
-                            <option value="Manufacturer__c-Manufacturer Layout" />
-                            <option value="Case-Case Layout" />
-                            <option value="Contract-Contract Layout" />
-                            <option value="Account-Account Layout" />
-                            <option value="Campaign-Campaign Layout" />
-                            <option value="CommunityMemberLayout-Community Member Layout" />
-                            <option value="ScorecardAssociation-Scorecard Association Layout" />
-                            <option value="Car__c-Car Layout" />
-                            <option value="Opportunity-Opportunity %28Sales%29 Layout" />
-                            <option value="SocialPersona-Social Persona Layout" />
-                            <option value="Scorecard-Scorecard Layout" />
-                            <option value="Engine__c-Engine Layout" />
-                            <option value="Case-Case %28Marketing%29 Layout" />
-                            <option value="Model__c-Model Layout" />
-                            <option value="PricebookEntry-Price Book Entry Layout" />
-                            <option value="CaseClose-Close Case Layout" />
-                            <option value="Idea-Idea Layout" />
-                            <option value="ContentVersion-Content Version Layout" />
-                            <option value="Opportunity-Opportunity %28Support%29 Layout" />
-                            <option value="Global-Global Layout" />
-                            <option value="Account-Account %28Marketing%29 Layout" />
-                            <option value="Lead-Lead %28Sales%29 Layout" />
-                            <option value="EmailMessage-Email Message Layout" />
-                            <option value="SocialPost-Social Post Layout" />
-                            <option value="Color__c-Color Layout" />
-                            <option value="CampaignMember-Campaign Member Page Layout" />
-                            <option value="Account-Account %28Support%29 Layout" />
-                            <option value="QuickText-Quick Text Layout" />
-                            <option value="User-User Layout" />
-                            <option value="Contact-Contact %28Sales%29 Layout" />
-                            <option value="Lead-Lead %28Marketing%29 Layout" />
-                            <option value="Opportunity-Opportunity %28Marketing%29 Layout" />
-                          </set>
-                        </option>
-                        <option name="name" value="Layout" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Account" />
-                            <option value="Task" />
-                            <option value="CollaborationGroup" />
-                            <option value="OpportunityLineItem" />
-                            <option value="ForecastingCategoryMapping" />
-                            <option value="CaseContactRole" />
-                            <option value="Activity" />
-                            <option value="Manufacturer__c" />
-                            <option value="Document" />
-                            <option value="ContactCleanInfo" />
-                            <option value="ScorecardMetric" />
-                            <option value="PushTopic" />
-                            <option value="FeedItem" />
-                            <option value="ContractContactRole" />
-                            <option value="ExchangeUserMapping" />
-                            <option value="SocialPersona" />
-                            <option value="Asset" />
-                            <option value="CampaignMember" />
-                            <option value="CollaborationGroupMember" />
-                            <option value="Order" />
-                            <option value="StreamingChannel" />
-                            <option value="AccountContactRole" />
-                            <option value="EmailMessage" />
-                            <option value="AccountCleanInfo" />
-                            <option value="Pricebook2" />
-                            <option value="UserProvisioningRequest" />
-                            <option value="Model__c" />
-                            <option value="PricebookEntry" />
-                            <option value="OrgDeleteRequest" />
-                            <option value="Car__c" />
-                            <option value="Campaign" />
-                            <option value="LeadCleanInfo" />
-                            <option value="Idea" />
-                            <option value="Contract" />
-                            <option value="ScorecardAssociation" />
-                            <option value="ChatterActivity" />
-                            <option value="PartnerRole" />
-                            <option value="OpportunityCompetitor" />
-                            <option value="Color__c" />
-                            <option value="MacroAction" />
-                            <option value="Site" />
-                            <option value="User" />
-                            <option value="Product2" />
-                            <option value="Macro" />
-                            <option value="MacroInstruction" />
-                            <option value="DuplicateRecordItem" />
-                            <option value="CaseComment" />
-                            <option value="Case" />
-                            <option value="ContentVersion" />
-                            <option value="Opportunity" />
-                            <option value="Lead" />
-                            <option value="DuplicateRecordSet" />
-                            <option value="Scorecard" />
-                            <option value="Topic" />
-                            <option value="Engine__c" />
-                            <option value="Solution" />
-                            <option value="AssetRelationship" />
-                            <option value="StreamActivityAccess" />
-                            <option value="QuickText" />
-                            <option value="DandBCompany" />
-                            <option value="OpportunityContactRole" />
-                            <option value="Contact" />
-                            <option value="RequestsForAccessSIQ" />
-                            <option value="OrderItem" />
-                            <option value="AssistantProgress" />
-                            <option value="Event" />
-                            <option value="RecordAction" />
-                            <option value="TopicAssignment" />
-                          </set>
-                        </option>
-                        <option name="name" value="CustomObject" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
-                            <option value="Car__c.Engine__c" />
-                            <option value="Opportunity.TrackingNumber__c" />
-                            <option value="Account.Active__c" />
-                            <option value="Case.SLAViolation__c" />
-                            <option value="Lead.Primary__c" />
-                            <option value="Model__c.Manufacturer__c" />
-                            <option value="Car__c.Engine_Name__c" />
-                            <option value="CaseComment.ParentOrigin" />
-                            <option value="Opportunity.DeliveryInstallationStatus__c" />
-                            <option value="Lead.CurrentGenerators__c" />
-                            <option value="Account.NumberofLocations__c" />
-                            <option value="Contact.Level__c" />
-                            <option value="Opportunity.MainCompetitors__c" />
-                            <option value="Account.SLASerialNumber__c" />
-                            <option value="Account.UpsellOpportunity__c" />
-                            <option value="Goal.OrigGoalId__c" />
-                            <option value="Car__c.Color_Name__c" />
-                            <option value="Car__c.Model__c" />
-                            <option value="Account.CustomerPriority__c" />
-                            <option value="Car__c.Manufacturer__c" />
-                            <option value="Account.SLA__c" />
-                            <option value="Lead.SICCode__c" />
-                            <option value="Contact.Languages__c" />
-                            <option value="Opportunity.OrderNumber__c" />
-                            <option value="Metric.OrigMetricId__c" />
-                            <option value="Case.EngineeringReqNumber__c" />
-                            <option value="Car__c.Model_Name__c" />
-                            <option value="CaseComment.CommentBody" />
-                            <option value="Account.SLAExpirationDate__c" />
-                            <option value="Car__c.Manufacturer_Name__c" />
-                            <option value="Opportunity.CurrentGenerators__c" />
-                            <option value="Car__c.Color__c" />
-                            <option value="Engine__c.Manufacturer__c" />
-                            <option value="Case.PotentialLiability__c" />
-                            <option value="Lead.ProductInterest__c" />
-                            <option value="Lead.NumberofLocations__c" />
-                            <option value="Case.Product__c" />
-                          </set>
-                        </option>
-                        <option name="name" value="CustomField" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -690,8 +731,8 @@
                         <option name="members">
                           <set>
                             <option value="Contact.Standard_Contact_Match_Rule_v1_1" />
-                            <option value="Lead.Standard_Lead_Match_Rule_v1_0" />
                             <option value="Account.Standard_Account_Match_Rule_v1_0" />
+                            <option value="Lead.Standard_Lead_Match_Rule_v1_0" />
                           </set>
                         </option>
                         <option name="name" value="MatchingRule" />
@@ -717,44 +758,22 @@
                       <MetadataType>
                         <option name="members">
                           <set>
-                            <option value="standard__Sales" />
-                            <option value="standard__LightningService" />
-                            <option value="standard__ServiceConsole" />
-                            <option value="Car_App" />
-                            <option value="standard__Community" />
-                            <option value="standard__AppLauncher" />
-                            <option value="standard__LightningInstrumentation" />
-                            <option value="standard__Chatter" />
-                            <option value="standard__Platform" />
-                            <option value="standard__LightningSales" />
-                            <option value="standard__Service" />
-                            <option value="standard__Marketing" />
-                            <option value="standard__Sites" />
-                            <option value="standard__Content" />
-                            <option value="standard__LightningSalesConsole" />
-                            <option value="standard__Insights" />
-                            <option value="standard__LightningBolt" />
-                          </set>
-                        </option>
-                        <option name="name" value="CustomApplication" />
-                      </MetadataType>
-                      <MetadataType>
-                        <option name="members">
-                          <set>
                             <option value="Order" />
                             <option value="Account" />
                             <option value="Task" />
+                            <option value="Insurance__c" />
                             <option value="Manufacturer__c" />
                             <option value="Model__c" />
-                            <option value="Contact" />
                             <option value="Case" />
                             <option value="Car__c" />
+                            <option value="Contact" />
                             <option value="ContentDocument" />
+                            <option value="TestObject__c" />
                             <option value="Campaign" />
                             <option value="Opportunity" />
                             <option value="Lead" />
-                            <option value="Asset" />
                             <option value="Event" />
+                            <option value="Asset" />
                             <option value="Contract" />
                             <option value="Engine__c" />
                             <option value="Solution" />
@@ -768,6 +787,7 @@
                           <set>
                             <option value="standard-Idea" />
                             <option value="standard-Macro" />
+                            <option value="Insurance__c" />
                             <option value="standard-StreamingChannel" />
                             <option value="standard-Case" />
                             <option value="standard-Solution" />
@@ -844,8 +864,8 @@
                             <option value="CollaborationGroup.NewGroupMember" />
                             <option value="Task.EditDescription_0" />
                             <option value="CollaborationGroup.NewGroupRecord" />
-                            <option value="SendEmail" />
                             <option value="NewLead" />
+                            <option value="SendEmail" />
                             <option value="Task.UpdateStatus" />
                             <option value="NewOpportunity" />
                             <option value="NewTask" />
@@ -859,8 +879,8 @@
                             <option value="NewContact" />
                             <option value="Task.Defer" />
                             <option value="NewCase" />
-                            <option value="NewEvent" />
                             <option value="LogACall" />
+                            <option value="NewEvent" />
                           </set>
                         </option>
                         <option name="name" value="QuickAction" />
@@ -873,6 +893,30 @@
                           </set>
                         </option>
                         <option name="name" value="AppMenu" />
+                      </MetadataType>
+                      <MetadataType>
+                        <option name="members">
+                          <set>
+                            <option value="standard__Sales" />
+                            <option value="standard__LightningService" />
+                            <option value="standard__ServiceConsole" />
+                            <option value="Car_App" />
+                            <option value="standard__Community" />
+                            <option value="standard__AppLauncher" />
+                            <option value="standard__LightningInstrumentation" />
+                            <option value="standard__Chatter" />
+                            <option value="standard__Platform" />
+                            <option value="standard__LightningSales" />
+                            <option value="standard__Service" />
+                            <option value="standard__Content" />
+                            <option value="standard__Sites" />
+                            <option value="standard__Marketing" />
+                            <option value="standard__Insights" />
+                            <option value="standard__LightningBolt" />
+                            <option value="standard__LightningSalesConsole" />
+                          </set>
+                        </option>
+                        <option name="name" value="CustomApplication" />
                       </MetadataType>
                       <MetadataType>
                         <option name="members">
@@ -957,8 +1001,8 @@
                           <set>
                             <option value="unfiled$public/SUPPORTSelfServiceResetPasswordSAMPLE" />
                             <option value="unfiled$public/SupportSelfServiceResetPassword" />
-                            <option value="unfiled$public/SupportCaseCreatedPhoneInquiries" />
                             <option value="unfiled$public/SupportSelfServiceNewLoginandPassword" />
+                            <option value="unfiled$public/SupportCaseCreatedPhoneInquiries" />
                             <option value="unfiled$public/SUPPORTSelfServiceNewUserLoginInformationSAMPLE" />
                             <option value="unfiled$public/SupportCaseAssignmentNotification" />
                             <option value="unfiled$public/SupportCaseResponse" />
@@ -979,10 +1023,13 @@
             </entry>
           </map>
         </option>
+        <option name="retrieveAndMergeDefault" value="false" />
         <option name="soqlQuerySettings">
           <SoqlQuerySettings>
             <option name="connectionName" value="Car Fill Lookups" />
-            <option name="documentText" value="SELECT Id FROM Manufacturer__c WHERE Name = 'Toyota Motors'" />
+            <option name="documentText" value="&#10;SELECT Id, Name, Manufacturer__c, Manufacturer__r.Name FROm Car__c" />
+            <option name="resultsSplitterProportion" value="0.55284554" />
+            <option name="splitterProportion" value="0.3847019" />
           </SoqlQuerySettings>
         </option>
       </ProjectWorkspaceSettings>
@@ -994,12 +1041,14 @@
     <option name="width" value="1380" />
     <option name="height" value="882" />
   </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="1" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -1012,10 +1061,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1539851234626" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540464314366" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
@@ -1074,45 +1126,7 @@
       <option name="workflowLogLevel" value="INFO" />
       <method v="2" />
     </configuration>
-    <configuration name="TestFillLookupTrigger.testNegativeBehavior" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
-      <option name="allTests" value="false" />
-      <option name="apexLogLevel" value="FINEST" />
-      <option name="calloutsLogLevel" value="ERROR" />
-      <option name="connectionName" value="Car Fill Lookups" />
-      <option name="contextConfiguration" value="true" />
-      <option name="databaseLogLevel" value="INFO" />
-      <option name="logLevelsInitialized" value="true" />
-      <option name="moduleToTestClassNames">
-        <map>
-          <entry key="Car Fill Lookups">
-            <value>
-              <set>
-                <option value="TestFillLookupTrigger" />
-              </set>
-            </value>
-          </entry>
-        </map>
-      </option>
-      <option name="profilingLogLevel" value="ERROR" />
-      <option name="systemLogLevel" value="FINEST" />
-      <option name="testClassToTestMethodNames">
-        <map>
-          <entry key="TestFillLookupTrigger">
-            <value>
-              <set>
-                <option value="testNegativeBehavior" />
-              </set>
-            </value>
-          </entry>
-        </map>
-      </option>
-      <option name="testSuiteName" />
-      <option name="validationLogLevel" value="ERROR" />
-      <option name="visualforceLogLevel" value="ERROR" />
-      <option name="workflowLogLevel" value="ERROR" />
-      <method v="2" />
-    </configuration>
-    <configuration name="TestFillLookupTrigger.testSuccesFill" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+    <configuration name="TestFillLookupTrigger.tesOnlyLookup" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
       <option name="allTests" value="false" />
       <option name="apexLogLevel" value="DEBUG" />
       <option name="calloutsLogLevel" value="INFO" />
@@ -1138,7 +1152,7 @@
           <entry key="TestFillLookupTrigger">
             <value>
               <set>
-                <option value="testSuccesFill" />
+                <option value="tesOnlyLookup" />
               </set>
             </value>
           </entry>
@@ -1148,6 +1162,82 @@
       <option name="validationLogLevel" value="INFO" />
       <option name="visualforceLogLevel" value="INFO" />
       <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFillLookupTrigger.testBulkCarsSuccessFill" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="apexLogLevel" value="DEBUG" />
+      <option name="calloutsLogLevel" value="INFO" />
+      <option name="connectionName" value="Car Fill Lookups" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="false" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="Car Fill Lookups">
+            <value>
+              <set>
+                <option value="TestFillLookupTrigger" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="profilingLogLevel" value="INFO" />
+      <option name="systemLogLevel" value="DEBUG" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="TestFillLookupTrigger">
+            <value>
+              <set>
+                <option value="testBulkCarsSuccessFill" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="INFO" />
+      <option name="visualforceLogLevel" value="INFO" />
+      <option name="workflowLogLevel" value="INFO" />
+      <method v="2" />
+    </configuration>
+    <configuration name="TestFillLookupTrigger.testEmptyCar" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
+      <option name="allTests" value="false" />
+      <option name="apexLogLevel" value="FINEST" />
+      <option name="calloutsLogLevel" value="ERROR" />
+      <option name="connectionName" value="Car Fill Lookups" />
+      <option name="contextConfiguration" value="true" />
+      <option name="databaseLogLevel" value="INFO" />
+      <option name="logLevelsInitialized" value="true" />
+      <option name="moduleToTestClassNames">
+        <map>
+          <entry key="Car Fill Lookups">
+            <value>
+              <set>
+                <option value="TestFillLookupTrigger" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="profilingLogLevel" value="ERROR" />
+      <option name="systemLogLevel" value="FINEST" />
+      <option name="testClassToTestMethodNames">
+        <map>
+          <entry key="TestFillLookupTrigger">
+            <value>
+              <set>
+                <option value="testEmptyCar" />
+              </set>
+            </value>
+          </entry>
+        </map>
+      </option>
+      <option name="testSuiteName" />
+      <option name="validationLogLevel" value="ERROR" />
+      <option name="visualforceLogLevel" value="ERROR" />
+      <option name="workflowLogLevel" value="ERROR" />
       <method v="2" />
     </configuration>
     <configuration name="TestFillLookupTrigger.testSuccessFill" type="com.illuminatedcloud.intellij" factoryName="Apex Unit Tests" temporary="true" show_console_on_std_err="false" show_console_on_std_out="false">
@@ -1189,17 +1279,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Apex Unit Tests.TestFillLookupTrigger" />
-      <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.testNegativeBehavior" />
-      <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.testSuccesFill" />
       <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.testSuccessFill" />
+      <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.testBulkCarsSuccessFill" />
+      <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.testEmptyCar" />
+      <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.tesOnlyLookup" />
+      <item itemvalue="Apex Unit Tests.TestFillLookupTrigger" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Apex Unit Tests.TestFillLookupTrigger" />
+        <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.tesOnlyLookup" />
+        <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.testEmptyCar" />
         <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.testSuccessFill" />
-        <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.testNegativeBehavior" />
-        <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.testSuccesFill" />
+        <item itemvalue="Apex Unit Tests.TestFillLookupTrigger.testBulkCarsSuccessFill" />
       </list>
     </recent_temporary>
   </component>
@@ -1220,34 +1312,34 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestFillLookupTrigger_testSuccessFill - 2018.10.18 at 10h 40m 57s.xml">
+    <history-entry file="TestFillLookupTrigger_testSuccessFill - 2018.10.24 at 14h 12m 40s.xml">
       <configuration name="TestFillLookupTrigger.testSuccessFill" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="TestFillLookupTrigger_testSuccessFill - 2018.10.18 at 10h 42m 34s.xml">
-      <configuration name="TestFillLookupTrigger.testSuccessFill" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="TestFillLookupTrigger_testEmptyCar - 2018.10.24 at 14h 43m 45s.xml">
+      <configuration name="TestFillLookupTrigger.testEmptyCar" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="TestFillLookupTrigger_testSuccessFill - 2018.10.18 at 10h 45m 24s.xml">
-      <configuration name="TestFillLookupTrigger.testSuccessFill" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="TestFillLookupTrigger_testEmptyCar - 2018.10.24 at 14h 44m 49s.xml">
+      <configuration name="TestFillLookupTrigger.testEmptyCar" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="TestFillLookupTrigger_testSuccessFill - 2018.10.18 at 10h 47m 12s.xml">
-      <configuration name="TestFillLookupTrigger.testSuccessFill" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="TestFillLookupTrigger_testEmptyCar - 2018.10.25 at 11h 18m 56s.xml">
+      <configuration name="TestFillLookupTrigger.testEmptyCar" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="TestFillLookupTrigger_testSuccessFill - 2018.10.18 at 10h 47m 29s.xml">
-      <configuration name="TestFillLookupTrigger.testSuccessFill" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="TestFillLookupTrigger_tesOnlyLookup - 2018.10.25 at 11h 31m 43s.xml">
+      <configuration name="TestFillLookupTrigger.tesOnlyLookup" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="TestFillLookupTrigger_testSuccessFill - 2018.10.18 at 10h 50m 17s.xml">
-      <configuration name="TestFillLookupTrigger.testSuccessFill" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="TestFillLookupTrigger_tesOnlyLookup - 2018.10.25 at 11h 37m 06s.xml">
+      <configuration name="TestFillLookupTrigger.tesOnlyLookup" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="TestFillLookupTrigger_testSuccessFill - 2018.10.18 at 10h 50m 50s.xml">
-      <configuration name="TestFillLookupTrigger.testSuccessFill" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="TestFillLookupTrigger_tesOnlyLookup - 2018.10.25 at 11h 38m 29s.xml">
+      <configuration name="TestFillLookupTrigger.tesOnlyLookup" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="TestFillLookupTrigger_testNegativeBehavior - 2018.10.18 at 10h 51m 13s.xml">
-      <configuration name="TestFillLookupTrigger.testNegativeBehavior" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="TestFillLookupTrigger_tesOnlyLookup - 2018.10.25 at 13h 19m 04s.xml">
+      <configuration name="TestFillLookupTrigger.tesOnlyLookup" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="TestFillLookupTrigger_testSuccessFill - 2018.10.18 at 10h 51m 28s.xml">
-      <configuration name="TestFillLookupTrigger.testSuccessFill" configurationId="com.illuminatedcloud.intellij" />
+    <history-entry file="TestFillLookupTrigger_tesOnlyLookup - 2018.10.25 at 13h 19m 53s.xml">
+      <configuration name="TestFillLookupTrigger.tesOnlyLookup" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
-    <history-entry file="TestFillLookupTrigger - 2018.10.18 at 10h 51m 40s.xml">
+    <history-entry file="TestFillLookupTrigger - 2018.10.25 at 13h 37m 51s.xml">
       <configuration name="TestFillLookupTrigger" configurationId="com.illuminatedcloud.intellij" />
     </history-entry>
   </component>
@@ -1263,28 +1355,28 @@
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.19867183" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49799198" visible="true" weight="0.21195352" />
       <window_info id="Structure" order="1" sideWeight="0.502008" side_tool="true" weight="0.18871057" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Illuminated Cloud" order="0" weight="0.32901832" />
+      <window_info anchor="bottom" id="Illuminated Cloud" order="0" weight="0.32864866" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6386276" weight="0.32901832" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.6386276" weight="0.32864866" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.399137" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32901832" />
-      <window_info anchor="bottom" id="Log Viewer" order="8" sideWeight="0.71776426" weight="0.5652643" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.39891893" />
+      <window_info anchor="bottom" id="TODO" order="7" sideWeight="0.4997233" weight="0.32864866" />
+      <window_info anchor="bottom" id="Log Viewer" order="8" sideWeight="0.71776426" visible="true" weight="0.5654054" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="SOQL Query" order="10" weight="0.32901832" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32901832" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.36137244" side_tool="true" weight="0.32901832" />
-      <window_info anchor="bottom" id="Anonymous Apex" order="13" sideWeight="0.71776426" weight="0.59978426" />
-      <window_info anchor="bottom" id="Messages" order="14" weight="0.32901832" />
+      <window_info anchor="bottom" id="SOQL Query" order="10" weight="0.32864866" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32864866" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.28223574" side_tool="true" weight="0.5654054" />
+      <window_info anchor="bottom" id="Anonymous Apex" order="13" sideWeight="0.71776426" weight="0.33513513" />
+      <window_info anchor="bottom" id="Messages" order="14" sideWeight="0.5799668" weight="0.32864866" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -1305,15 +1397,21 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="ApexOfflineDebuggerBreakpointType">
           <url>file://$PROJECT_DIR$/src/triggers/FillLookupTrigger.trigger</url>
-          <line>10</line>
+          <line>1</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="ApexOfflineDebuggerBreakpointType">
-          <url>file://$PROJECT_DIR$/src/classes/TestFillLookupTrigger.cls</url>
-          <line>42</line>
+          <url>file://$PROJECT_DIR$/src/classes/MapperFields.cls</url>
+          <line>2</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="ApexOfflineDebuggerBreakpointType">
+          <url>file://$PROJECT_DIR$/src/classes/MapperFields.cls</url>
+          <line>26</line>
+          <properties />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -1340,24 +1438,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Car Fill Lookups.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2193">
-          <caret line="1065" column="42" lean-forward="true" selection-start-line="1065" selection-start-column="42" selection-end-line="1065" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/package.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
           <caret line="12" column="29" lean-forward="true" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Car_Fill_Lookups/OfflineSymbolTable.zip!/System/System.cls">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="46" selection-start-line="46" selection-end-line="46" />
         </state>
       </provider>
     </entry>
@@ -1403,10 +1487,35 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/MapperFields.cls-meta.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Car Fill Lookups.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="1134" column="64" selection-start-line="1134" selection-start-column="55" selection-end-line="1134" selection-end-column="64" />
+          <caret line="2237" column="64" selection-start-line="2237" selection-start-column="55" selection-end-line="2237" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
     <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Car_Fill_Lookups/OfflineSymbolTable.zip!/Canvas/Test.cls">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Car_Fill_Lookups/OfflineSymbolTable.zip!/System/Test.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/IlluminatedCloud/Car_Fill_Lookups/OfflineSymbolTable.zip!/System/System.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
         </state>
       </provider>
     </entry>
@@ -1417,17 +1526,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/classes/MapperFields.cls">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="38" column="24" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/triggers/FillLookupTrigger.trigger">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="138" selection-start-line="10" selection-start-column="138" selection-end-line="10" selection-end-column="138" />
+        <state relative-caret-position="495">
+          <caret line="33" column="74" selection-start-line="33" selection-start-column="74" selection-end-line="33" selection-end-column="74" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/classes/TestFillLookupTrigger.cls">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="570">
-          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="615">
+          <caret line="74" column="42" lean-forward="true" selection-start-line="74" selection-start-column="42" selection-end-line="74" selection-end-column="42" />
         </state>
       </provider>
     </entry>

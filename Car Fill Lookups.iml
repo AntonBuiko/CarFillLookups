@@ -24,6 +24,10 @@
                       <option name="entries">
                         <list>
                           <MetadataEntry>
+                            <option name="name" value="MapperFields" />
+                            <option name="selected" value="true" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="TestFillLookupTrigger" />
                             <option name="selected" value="true" />
                           </MetadataEntry>
@@ -297,6 +301,12 @@
                             <option name="name" value="Car__c.Engine__c" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Car__c.Insurance__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Car__c.Insurance_number__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Car__c.Manufacturer_Name__c" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -337,6 +347,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Goal.OrigGoalId__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Insurance__c.Code__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead.CurrentGenerators__c" />
@@ -430,6 +443,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Car__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Case" />
@@ -451,6 +465,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Color__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Contact" />
@@ -484,6 +499,7 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Engine__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Event" />
@@ -499,6 +515,10 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Idea" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Insurance__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead" />
@@ -517,9 +537,11 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Manufacturer__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Model__c" />
+                            <option name="selected" value="true" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Opportunity" />
@@ -594,6 +616,9 @@
                             <option name="name" value="Task" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="TestObject__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Topic" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -623,10 +648,16 @@
                             <option name="name" value="Engine__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Insurance__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Manufacturer__c-en_US" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Model__c-en_US" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestObject__c-en_US" />
                           </MetadataEntry>
                         </list>
                       </option>
@@ -656,6 +687,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Engine__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Insurance__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Manufacturer__c" />
@@ -1098,6 +1132,9 @@
                             <option name="name" value="Idea-Idea Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Insurance__c-Insurance Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Lead-Lead %28Marketing%29 Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1171,6 +1208,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Task-Task Layout" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestObject__c-TestObject Layout" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="User-User Layout" />
@@ -1310,6 +1350,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Idea.Ideas_Last_7_Days" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="Insurance__c.All" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Lead.AllOpenLeads" />
@@ -1932,6 +1975,9 @@
                             <option name="name" value="FlowInterview" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Insurance__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Lead" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -1948,6 +1994,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Order" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestObject__c" />
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="User" />
@@ -2186,6 +2235,9 @@
                             <option name="name" value="Event" />
                           </MetadataEntry>
                           <MetadataEntry>
+                            <option name="name" value="Insurance__c" />
+                          </MetadataEntry>
+                          <MetadataEntry>
                             <option name="name" value="Lead" />
                           </MetadataEntry>
                           <MetadataEntry>
@@ -2205,6 +2257,9 @@
                           </MetadataEntry>
                           <MetadataEntry>
                             <option name="name" value="Task" />
+                          </MetadataEntry>
+                          <MetadataEntry>
+                            <option name="name" value="TestObject__c" />
                           </MetadataEntry>
                         </list>
                       </option>
